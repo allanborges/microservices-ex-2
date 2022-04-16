@@ -1,0 +1,6 @@
+borges\allan\notification\NotificationApplication.class
+borges\allan\notification\NotificationController.class
+borges\allan\notification\NotificationRepository.class
+borges\allan\notification\Notification.class
+borges\allan\notification\Notification$NotificationBuilder.class
+borges\allan\notification\NotificationService.class
