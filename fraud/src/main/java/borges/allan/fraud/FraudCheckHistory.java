@@ -1,6 +1,5 @@
 package borges.allan.fraud;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;

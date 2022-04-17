@@ -13,9 +13,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   
-   <packaging>jar</packaging>
+  <packaging>jar</packaging>
   <artifactId>clients</artifactId>
-
-
   
 </project>
