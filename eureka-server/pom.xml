@@ -22,7 +22,26 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/java/resources</directory>
+			</resource>
+		</resources>
 	</build>
+	
+	<profiles>
+		<profile>
+			<id>build-docker-image</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.google.cloud.tools</groupId>
+						<artifactId>jib-maven-plugin</artifactId>						
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 
 	<artifactId>eureka-server</artifactId>
 	<packaging>jar</packaging>
